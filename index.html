@@ -200,7 +200,7 @@ footer b{font-family:var(--head)}
     <textarea class="full" name="msg" placeholder="Tell us about your project" required aria-label="Project details"></textarea>
     <button class="btn solid full mag" type="submit">Send enquiry</button>
   </form>
-  <a class="mail" href="mailto:hello@crodetech.com">hello@crodetech.com</a>
+  <a class="mail" href="mailto:crodetech@gmail.com">crodetech@gmail.com</a>
 </section>
 </main>
 <footer>
@@ -246,7 +246,7 @@ if(fine){var mx=0,my=0,cx=0,cy=0;addEventListener('pointermove',function(e){mx=e
   $$('.card').forEach(function(c){c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;c.style.transform='perspective(800px) rotateX('+((y/r.height-.5)*-6)+'deg) rotateY('+((x/r.width-.5)*6)+'deg)'});c.addEventListener('pointerleave',function(){c.style.transform=''})})}
 /* form -> mailto */
 $('#form').addEventListener('submit',function(e){e.preventDefault();var f=e.target,b='Name: '+f.name.value+'\nEmail: '+f.email.value+'\nPlan: '+f.plan.value+'\n\n'+f.msg.value;
-  location.href='mailto:hello@crodetech.com?subject='+encodeURIComponent('Project enquiry — '+f.plan.value)+'&body='+encodeURIComponent(b)});
+  location.href='mailto:crodetech@gmail.com?subject='+encodeURIComponent('Project enquiry — '+f.plan.value)+'&body='+encodeURIComponent(b)});
 })();
 </script>
 </body>
