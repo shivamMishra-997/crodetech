@@ -49,8 +49,4 @@ setTimeout(function(){b.disabled=false;b.textContent='Send on WhatsApp'},1500);
 st.className='fs ok';st.innerHTML='Your message is ready in WhatsApp. Press send there to reach us. Nothing is stored on this website. WhatsApp did not open? <a href="mailto:'+MAIL+'?subject='+encodeURIComponent('Project enquiry from '+$('#nm').value.trim())+'&body='+encodeURIComponent(m)+'">Send it by email instead</a>.'})}
 $('.up').onclick=function(){go(0)};$('#yr').textContent=new Date().getFullYear();
 })();
- window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-F9MBL135WR');
